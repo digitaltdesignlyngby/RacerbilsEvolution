@@ -6,7 +6,7 @@ Mappen "RacerBilsEvolutionsProgram" indeholder et program til at generere "tilf�
 Med tilfældige menes at deres hjerner, et simpelt neuralt netværk, endnu ikke er indstillet/optimeret. 
 De autonome bilers sensorsystem kan genkende to forskellige farver: "hvid" som er udenfor banen og "grøn" som er målstregen.
 Genkendelse af farven grøn kan bruges til at beregne hvor hurtigt bilen gennemfører en omgang.
-Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse. Nedenfor ses en sreenshot af programmet:
+Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse. Nedenfor ses en sreenshot af programmet:</br>
 ![Programmet køres](billeder/WorldOfRacerbiler.png)
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
