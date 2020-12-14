@@ -14,7 +14,7 @@ Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har dete
 
 
 ## Beksrivelse af bilens hjerne : Det Neurale Netværk
-Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.
+Bilernes hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.
 Hjernen fortæller baseret på sine input om bilen skal rotere til venstre eller højre.
 Hjernen er et simpelt fuldt forbundet feedforward Neuralt Netværk. Nedenfor ses et diagram over bilen neurale netværk:</br>
 ![Den Autonome Racerbils hjerne](billeder/NN1.png)
