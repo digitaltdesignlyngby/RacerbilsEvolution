@@ -1,5 +1,5 @@
 //populationSize: Hvor mange "controllere" der genereres, controller = bil & hjerne & sensorer
-int       populationSize  = 50;     
+int       populationSize  = 100;     
 
 //CarSystem: Indholder en population af "controllere" 
 CarSystem carSystem       = new CarSystem(populationSize);
