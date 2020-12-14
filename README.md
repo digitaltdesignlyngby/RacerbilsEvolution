@@ -1,4 +1,8 @@
 # Racerbils Neuro Evolution
+Dette repo indeholder koden til forløbet "Racerbils Evolution". </br>
+Formålet med forløbet er at bygge en Genetisk Algoritme, der kun udvikle den hurtigst mulige racerbil. </br> 
+Dvs. den bil der bil der kan gennemføre en omgang på den virtuelle 2D-racerbane, hurtigst muligt uden at køre galt.</br>
+Racerbilerne styres af et såkaldt neuralt netværk.
 
 ## Bekrivelse af programmet 
 ### Racerbils Evolutions Programmet
