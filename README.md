@@ -3,11 +3,14 @@
 
 ## Racerbils Evolutions Programmet
 
-Mappen "RacerBilsEvolutionsProgram" indeholder et program til at lave og måle simple autonome racerbiler i en 2D verden. 
+Mappen "RacerBilsEvolutionsProgram" indeholder et program til at generere "tilfældige" simple autonome racerbiler i en 2D verden. 
+Med tilfældige menes at deres hjerner, et simpelt neuralt netværk, endnu ikke er indstillet/optimeret. 
 De autonome bilers sensorsystem kan genkende to forskellige farver: "hvid" som er udenfor banen og "grøn" som er målstregen.
+Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.  
+Genkendelse af farven grøn kan bruges til at beregne hvor hurtigt bilen gennemfører en omgang.
 Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse.
 Nedenfor ses en sreenshot af programmet:
-![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
+![Programmet køres](WorldOfRacerbiler.png)
 
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
