@@ -9,8 +9,7 @@ class CarController {
     //1.)opdtarer bil 
     bil.update();
     //2.)opdaterer sensorer    
-    sensorSystem.updateSensorVectors(bil.vel);
-    sensorSystem.updateSensorsignals(bil.pos);
+    sensorSystem.updateSensorsignals(bil.pos, bil.vel);
     //3.)hjernen beregner hvor meget der skal drejes
     float turnAngle = 0;
     float x1 = (float)int(sensorSystem.leftSensorSignal);
@@ -23,6 +22,6 @@ class CarController {
   
   void display(){
     bil.displayCar();
-    sensorSystem.displaySensors(bil.pos);
+    sensorSystem.displaySensors();
   }
 }

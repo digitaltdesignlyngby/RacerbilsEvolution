@@ -5,7 +5,7 @@ class NeuralNetwork {
     1.0, 1.0, 1.0, // layer 1, 3 input neurons : w1_01=w[0], w1_02=w[1], w1_03=w[2]
     1.0, 1.0, 0.0, // layer 2, 2 hidden neurons: w2_11=w[3], w2_21=w[4], w2_31=w[5] 
     0.0, 1.0, 1.0, //                            w2_12=w[6], w2_22=w[7], w2_32=w[8]
-    0.5, -0.5      // layer 3, 1 output neuron : w3_11=w[9], w3_21=w[10] 
+    0.2, -0.2      // layer 3, 1 output neuron : w3_11=w[9], w3_21=w[10] 
   };
   //All biases
   float[] biases = {
