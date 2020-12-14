@@ -1,28 +1,33 @@
 # Racerbils Neuro Evolution
 
-
-## Racerbils Evolutions Programmet
-
+## Bekrivelse af programmet 
+### Racerbils Evolutions Programmet
 Mappen "RacerBilsEvolutionsProgram" indeholder et program til at generere "tilfældige" simple autonome racerbiler i en 2D verden. 
 Med tilfældige menes at deres hjerner, et simpelt neuralt netværk, endnu ikke er indstillet/optimeret. 
 De autonome bilers sensorsystem kan genkende to forskellige farver: "hvid" som er udenfor banen og "grøn" som er målstregen.
-Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.  
 Genkendelse af farven grøn kan bruges til at beregne hvor hurtigt bilen gennemfører en omgang.
-Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse.
-Nedenfor ses en sreenshot af programmet:
+Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse. Nedenfor ses en sreenshot af programmet:</br>
 ![Programmet køres](billeder/WorldOfRacerbiler.png)
-
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
 ![Den Autonome Racerbil Grafiske repræsentation](billeder/CarAndSensors.png)
 
-## Koden
 
+## Beksrivelse af bilens hjerne : Det Neurale Netværk
+Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.
+Hjernen fortæller baseret på sine input om bilen skal rotere til venstre eller højre.
+Hjernen er et simpelt fuldt forbundet feedforward Neuralt Netværk. Nedenfor ses et diagram over bilen neurale netværk:</br>
+![Den Autonome Racerbils hjerne](billeder/NN1.png)
+
+Et neuralt netværk er opbygget af neuroner (vist med cirkler), som modtager et vilkårligt antal input(vist som x) som hver bliver multipliceret med et tal kaldet en "vægt" (vist som w), reultatet bliver adderet med et andet tal kaldet "bias" (ikke vist) og sendes igennem en matematisk funktion kaldet en "aktiverings funktion"(ikke vist). Vi arbejder med meget simple neuroner, hvis aktivitetsfunktion bare er f(x) = x eller y = x.</br>
+
+Styrken ved det neurale netværk ligger i muligheden for at justere "vægte" og "bias" indtil det giver os det ønskede svar, dvs. styrer bilen uden at køre udenfor banen.</br>
+Bland andet indenfor billedgenkendelse er væsenligt mere komplicerede Neurale Netværk populære. Til disse typer opgaver anvendes træningsmetoder kategoriseret som "Deep Learning". 
+
+## Beskrivelse af koden : De vigtigste klasser
 ### Klassediagram over den autonome racerbil
 Nedenfor ses et klassediagram for vigtigste dele af "den autonome racerbil", i koden kaldet "CarController":</br></br>
 ![Den Autonome Racerbil klasse komposition, kaldet CarController](billeder/CarControllerDiagram.png)
-
-
 ### CarController: Den autonome bil. Indeholder et SensorSystem, et NeuraltNetwork og en Car.
 CarControlleren fodrer NeuraltNetwork  med signaler fra SensorSystem’s left/right/front/sensor. </br>
 Det neurale netværks output styrer bilen.</br>
