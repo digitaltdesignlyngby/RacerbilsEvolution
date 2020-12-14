@@ -13,7 +13,7 @@ Nedenfor ses en sreenshot af programmet:
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
 ![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
 
-## Klasser i programmet
+## Koden
 
 ### Klassediagram over den autonome racerbil
 Nedenfor ses et klassediagram for vigtigste dele af "den autonome racerbil", i koden kaldet "CarController":</br></br>
