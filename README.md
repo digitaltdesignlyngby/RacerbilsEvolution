@@ -10,17 +10,17 @@ Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der regis
 Genkendelse af farven grøn kan bruges til at beregne hvor hurtigt bilen gennemfører en omgang.
 Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse.
 Nedenfor ses en sreenshot af programmet:
-![Programmet køres](WorldOfRacerbiler.png)
+![Programmet køres](billeder/WorldOfRacerbiler.png)
 
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
-![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
+![Den Autonome Racerbil Grafiske repræsentation](billeder/CarAndSensors.png)
 
 ## Koden
 
 ### Klassediagram over den autonome racerbil
 Nedenfor ses et klassediagram for vigtigste dele af "den autonome racerbil", i koden kaldet "CarController":</br></br>
-![Den Autonome Racerbil klasse komposition, kaldet CarController](CarControllerDiagram.png)
+![Den Autonome Racerbil klasse komposition, kaldet CarController](billeder/CarControllerDiagram.png)
 
 
 ### CarController:
