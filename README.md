@@ -14,12 +14,13 @@ Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har dete
 
 
 ## Beksrivelse af bilens hjerne : Det Neurale Netværk
-Bilerne hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.
+Bilernes hjerner styrer bilen ved at reagere på input fra de sensorer, der registerer farven "hvid", da alt udenfor banen er hvidt.
 Hjernen fortæller baseret på sine input om bilen skal rotere til venstre eller højre.
 Hjernen er et simpelt fuldt forbundet feedforward Neuralt Netværk. Nedenfor ses et diagram over bilen neurale netværk:</br>
 ![Den Autonome Racerbils hjerne](billeder/NN1.png)
 
 Et neuralt netværk er opbygget af neuroner (vist med cirkler), som modtager et vilkårligt antal input som hver bliver multipliceret med et tal kaldet en "vægt" (vist som w), reultatet bliver adderet med et andet tal kaldet "bias" (ikke vist) og sendes igennem en matematisk funktion kaldet en "aktiverings funktion"(ikke vist). Vi arbejder med meget simple neuroner, hvis aktivitetsfunktion bare er f(x) = x eller y = x.</br>
+Man tegner normalt input til hele det neurale netværk, som neuroner markeret med x (de grønne cirkler), selvom de i virkeligheden bare er input.</br>
 Nedenfor ses et eksempel på en neuron:</br>
 ![Eksempel på en neuron](billeder/NeuronExample.png)
 
