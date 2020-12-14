@@ -20,6 +20,7 @@ Hjernen er et simpelt fuldt forbundet feedforward Neuralt Netværk. Nedenfor ses
 ![Den Autonome Racerbils hjerne](billeder/NN1.png)
 
 Et neuralt netværk er opbygget af neuroner (vist med cirkler), som modtager et vilkårligt antal input som hver bliver multipliceret med et tal kaldet en "vægt" (vist som w), reultatet bliver adderet med et andet tal kaldet "bias" (ikke vist) og sendes igennem en matematisk funktion kaldet en "aktiverings funktion"(ikke vist). Vi arbejder med meget simple neuroner, hvis aktivitetsfunktion bare er f(x) = x eller y = x.</br>
+Man tegner normalt input til hele det neurale netværk, som neuroner markeret med x (de grønne cirkler), selvom de i virkeligheden bare er input.</br>
 Nedenfor ses et eksempel på en neuron:</br>
 ![Eksempel på en neuron](billeder/NeuronExample.png)
 
