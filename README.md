@@ -19,7 +19,9 @@ Hjernen fortæller baseret på sine input om bilen skal rotere til venstre eller
 Hjernen er et simpelt fuldt forbundet feedforward Neuralt Netværk. Nedenfor ses et diagram over bilen neurale netværk:</br>
 ![Den Autonome Racerbils hjerne](billeder/NN1.png)
 
-Et neuralt netværk er opbygget af neuroner (vist med cirkler), som modtager et vilkårligt antal input(vist som x) som hver bliver multipliceret med et tal kaldet en "vægt" (vist som w), reultatet bliver adderet med et andet tal kaldet "bias" (ikke vist) og sendes igennem en matematisk funktion kaldet en "aktiverings funktion"(ikke vist). Vi arbejder med meget simple neuroner, hvis aktivitetsfunktion bare er f(x) = x eller y = x.</br>
+Et neuralt netværk er opbygget af neuroner (vist med cirkler), som modtager et vilkårligt antal input som hver bliver multipliceret med et tal kaldet en "vægt" (vist som w), reultatet bliver adderet med et andet tal kaldet "bias" (ikke vist) og sendes igennem en matematisk funktion kaldet en "aktiverings funktion"(ikke vist). Vi arbejder med meget simple neuroner, hvis aktivitetsfunktion bare er f(x) = x eller y = x.</br>
+Nedenfor ses et eksempel på en neuron:</br>
+![Eksempel på en neuron](billeder/NeuronExample.png)
 
 Styrken ved det neurale netværk ligger i muligheden for at justere "vægte" og "bias" indtil det giver os det ønskede svar, dvs. styrer bilen uden at køre udenfor banen.</br>
 Bland andet indenfor billedgenkendelse er væsenligt mere komplicerede Neurale Netværk populære. Til disse typer opgaver anvendes træningsmetoder kategoriseret som "Deep Learning". 
