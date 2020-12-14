@@ -1,14 +1,24 @@
 # Racerbils Neuro Evolution
 
-### Klassediagram over den autonome racerbil
-Nedenfor ses et klassediagram for vigtigste dele af "den autonome racerbil", i koden kaldet "CarController":</br></br>
-![Den Autonome Racerbil klasse komposition, kaldet CarController](CarControllerDiagram.png)
+
+## Racerbils Evolutions Programmet
+
+Mappen "RacerBilsEvolutionsProgram" indeholder et program til at lave og måle simple autonome racerbiler i en 2D verden. 
+De autonome bilers sensorsystem kan genkende to forskellige farver: "hvid" som er udenfor banen og "grøn" som er målstregen.
+Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse.
+Nedenfor ses en sreenshot af programmet:
+![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
 
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
 ![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
 
-## Oversigt over vigitigste klasser i programmet
+## Klasser i programmet
+
+### Klassediagram over den autonome racerbil
+Nedenfor ses et klassediagram for vigtigste dele af "den autonome racerbil", i koden kaldet "CarController":</br></br>
+![Den Autonome Racerbil klasse komposition, kaldet CarController](CarControllerDiagram.png)
+
 
 ### CarController:
 Den autonome bil. Indeholder et SensorSystem, et NeuraltNetwork og en Car:</br>
