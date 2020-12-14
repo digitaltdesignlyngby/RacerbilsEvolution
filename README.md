@@ -7,7 +7,7 @@ Mappen "RacerBilsEvolutionsProgram" indeholder et program til at lave og måle s
 De autonome bilers sensorsystem kan genkende to forskellige farver: "hvid" som er udenfor banen og "grøn" som er målstregen.
 Bilerne bevæger sig med en konstant hastighed på 5 pixels pr. frame,- og ændre retning ved at rotere om egen akse.
 Nedenfor ses en sreenshot af programmet:
-![Den Autonome Racerbil Grafiske repræsentation](CarAndSensors.png)
+![Programmet køres](WorldOfRacerbiler.png)
 
 ### Racerbilen grafiske visning
 Nedenfor ses en racerbil som den ser ud i programmet. Den højre sensor har detekteret den hvide farve og lyser rødt:
