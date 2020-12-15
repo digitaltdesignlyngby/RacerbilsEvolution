@@ -1,6 +1,6 @@
 class NeuralNetwork {
   //All weights
-  float[] weights = {1,1,0,0,1,1,-2,2};//new float[8];
+  float[] weights = new float[8];
   
     //Naming convention w{layer number}_{from neuron number}_{to neuron number}
     // layer 1, 2 hidden neurons: w0_11=w[0], w0_21=w[1], w0_31=w[2] 
@@ -15,10 +15,10 @@ class NeuralNetwork {
   
   NeuralNetwork(float varians){
     for(int i=0; i < weights.length -1; i++){
-    // weights[i] = random(-varians,varians);
+      weights[i] = random(-varians,varians);
     }
     for(int i=0; i < biases.length -1; i++){
-    // biases[i] = random(-varians,varians);
+      biases[i] = random(-varians,varians);
     }    
   }
 
